@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <radialGradient id="circleGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#FFE135;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#FF9C33;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E63946;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Circle logo -->
+  <circle cx="150" cy="150" r="120" fill="url(#circleGradient)"/>
+  <circle cx="150" cy="150" r="60" fill="#FFFFFF"/>
+
+  <!-- OHWAN text -->
+  <text x="320" y="195" font-family="Arial, sans-serif" font-size="140" font-weight="900" fill="#2B2B2B" letter-spacing="-5">OHWAN</text>
+
+  <!-- SIGN & DISPLAY text -->
+  <text x="480" y="270" font-family="Arial, sans-serif" font-size="55" font-weight="900" font-style="italic" fill="#2B2B2B">SIGN &amp; DISPLAY</text>
+</svg>
